@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunnyvale Farms - FarmLink</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   
+</head>
+<body>
+
+    <div class="page-container">
+        <header class="header">
+          <nav class="navbar container" id="navbar">
+                <a href="index.html" class="nav-logo">FarmLink</a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#" class="nav-link">Farmers</a></li>
+                  <li class="nav-item"><a href="marketplace.html" class="nav-link">Marketplace</a></li>
+                   <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                    <a href="login.html" class="nav-link">Login</a>
+                </ul>
+                <div class="nav-actions">
+                    
+                    <a href="#" class="nav-cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="profile-header container">
+                <div class="profile-avatar">
+                    <img src="amruth.jpg" alt="Farmer John Doe">
+                </div>
+                <div class="profile-details">
+                    <h1>Holur Farms</h1>
+                    <p class="farmer-name">Amruth</p>
+                    <div class="profile-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Holur,kolar</span>
+                    </div>
+                    <p class="profile-bio">
+                        We are a family-owned farm dedicated to sustainable agriculture. All our produce is grown with natural methods to ensure the best flavor and quality for your family.
+                    </p>
+                    <button class="btn btn-primary"><i class="fas fa-envelope"></i> Contact Farmer</button>
+                </div>
+            </section>
+
+            <section class="product-catalog container">
+                <h2>Our Products</h2>
+                <div class="card-grid">
+                    <div class="card product-card">
+                        <img src="potato.webp" alt="Heirloom Tomatoes">
+                        <div class="card-body">
+                            <h4>Potato</h4>
+                            <p class="product-price">₹50/kg</p>
+                           <button class="btn btn-primary add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card product-card">
+                        <img src="https://images.pexels.com/photos/2252584/pexels-photo-2252584.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sweet Corn">
+                         <div class="card-body">
+                            <h4>Capsicum</h4>
+                            <p class="product-price">₹25 /kg</p>
+                            <button class="btn btn-primary add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card product-card">
+                        <img src="fruit.jpg" alt="Zucchini">
+                         <div class="card-body">
+                            <h4>Fruits</h4>
+                            <p class="product-price">₹100 / kg</p>
+                            <button class="btn btn-primary add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                     <div class="card product-card">
+                        <img src="https://images.pexels.com/photos/533280/pexels-photo-533280.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Carrots">
+                         <div class="card-body">
+                            <h4>Tomatoes</h4>
+                            <p class="product-price">₹35 /kg</p>
+                           <button class="btn btn-primary add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="availability-calendar container">
+                <h2>Seasonal Availability</h2>
+                <div class="calendar-grid">
+                    <div class="calendar-header">Product</div>
+                    <div class="calendar-header">J</div>
+                    <div class="calendar-header">F</div>
+                    <div class="calendar-header">M</div>
+                    <div class="calendar-header">A</div>
+                    <div class="calendar-header">M</div>
+                    <div class="calendar-header">J</div>
+                    <div class="calendar-header">J</div>
+                    <div class="calendar-header">A</div>
+                    <div class="calendar-header">S</div>
+                    <div class="calendar-header">O</div>
+                    <div class="calendar-header">N</div>
+                    <div class="calendar-header">D</div>
+
+                    <div class="product-name">Potato</div>
+                    <div class="month"></div><div class="month"></div><div class="month"></div><div class="month"></div>
+                    <div class="month available"></div><div class="month available"></div><div class="month available"></div><div class="month available"></div>
+                    <div class="month available"></div><div class="month"></div><div class="month"></div><div class="month"></div>
+                    
+                    <div class="product-name">Capsicum</div>
+                    <div class="month"></div><div class="month"></div><div class="month"></div><div class="month"></div><div class="month"></div>
+                    <div class="month available"></div><div class="month available"></div><div class="month available"></div><div class="month available"></div>
+                    <div class="month"></div><div class="month"></div><div class="month"></div>
+
+                    <div class="product-name">Fruits</div>
+                    <div class="month"></div><div class="month"></div><div class="month"></div><div class="month"></div>
+                    <div class="month available"></div><div class="month available"></div><div class="month available"></div><div class="month available"></div>
+                    <div class="month"></div><div class="month"></div><div class="month"></div><div class="month"></div>
+
+                    <div class="product-name">Tomatoes</div>
+                    <div class="month"></div><div class="month"></div><div class="month available"></div><div class="month available"></div><div class="month available"></div>
+                    <div class="month available"></div><div class="month"></div><div class="month"></div><div class="month available"></div><div class="month available"></div>
+                    <div class="month available"></div><div class="month"></div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

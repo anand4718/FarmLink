@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Product - FarmLink</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="login-body">
+
+    <div class="add-product-container">
+        <div class="login-form"> <a href="index.html" class="nav-logo login-logo">FarmLink</a>
+            <h2>List a New Product</h2>
+            <p>Fill out the details below to add a product to the marketplace.</p>
+            
+            <form id="addProductForm">
+                <div class="input-group">
+                    <label for="productName">Product Name</label>
+                    <input type="text" id="productName" placeholder="e.g., Organic Strawberries" required>
+                </div>
+               <div class="input-group">
+    <label for="productPrice">Price</label>
+    <input type="text" id="productPrice" placeholder="e.g., ₹120 / kg" required>
+</div>
+                <div class="input-group">
+                    <label for="expiryDate">Best Before / Expiry Date</label>
+                    <input type="date" id="expiryDate" required>
+                </div>
+                
+                <button type="submit" class="btn btn-primary login-submit-btn">Add Product</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

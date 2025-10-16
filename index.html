@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmLink - Local Food Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+
+</head>
+<body>
+
+    <div class="page-container">
+        <header class="header">
+            <nav class="navbar container" id="navbar">
+                <a href="#" class="nav-logo">FarmLink</a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#" class="nav-link">Farmers</a></li>
+                  <li class="nav-item"><a href="marketplace.html" class="nav-link">Marketplace</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                </ul>
+                <div class="nav-actions">
+                   <a href="login.html" class="nav-link">Login</a>
+                    <a href="#" class="nav-cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Harvested with Heart,<br>Delivered to Your Home</h1>
+                    <p>Discover fresh, local produce directly from the farmers who grow it. Support your community, taste the difference.</p>
+                    <div class="hero-buttons">
+                       <a href="farmers-list.html" class="btn btn-primary">Find Local Farmers</a>
+                       <a href="add-product.html" class="btn btn-secondary">Sell Your Produce</a>
+                    </div>
+                    <div class="search-bar">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Search for products, farmers, or location...">
+                    </div>
+                </div>
+            </section>
+            
+            <section class="categories container">
+                <h2>Shop by Category</h2>
+                <div class="category-grid">
+    <a href="category-products.html?category=vegetables" class="category-card">
+        <img src="https://img.icons8.com/plasticine/100/carrot.png" alt="Vegetables"/>
+        <h4>Vegetables</h4>
+    </a>
+    <a href="category-products.html?category=fruits" class="category-card">
+        <img src="https://img.icons8.com/plasticine/100/strawberry.png" alt="Fruits"/>
+        <h4>Fruits</h4>
+    </a>
+    <a href="category-products.html?category=meat" class="category-card">
+        <img src="https://img.icons8.com/plasticine/100/steak.png" alt="Meat"/>
+        <h4>Meat</h4>
+    </a>
+    <a href="category-products.html?category=dairy" class="category-card">
+        <img src="https://img.icons8.com/plasticine/100/sunny-side-up-eggs.png" alt="Eggs & Dairy"/>
+        <h4>Eggs & Dairy</h4>
+    </a>
+</div>
+            </section>
+            
+            <section class="featured-products container">
+                <h2>Featured Products</h2>
+                <div class="card-grid" id="product-grid">
+                    <div class="card product-card">
+                        <img src="https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Heirloom Tomatoes">
+                        <div class="card-body">
+                            <h4>Fruits</h4>
+                            <p class="product-farm">from Maharastra starting from</p>
+                            <p class="product-price">₹100 / kg</p>
+                            <button class="btn btn-primary add-to-cart-btn">Add to Cart</button>
+                        </div>
+                     
+                    </div>
+                    <div class="card product-card">
+                        <img src="https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Fresh Strawberries">
+                         <div class="card-body">
+                            <h4>Vegitables</h4>
+                            <p class="product-farm">from Kolar starting from</p>
+                            <p class="product-price">₹30 / kg</p>
+                           <button class="btn btn-primary add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card product-card">
+                        <img src="https://images.pexels.com/photos/162712/egg-white-food-protein-162712.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Pasture-Raised Eggs">
+                         <div class="card-body">
+                            <h4>Pasture-Raised Eggs</h4>
+                            <p class="product-farm">from Liberty Ranch</p>
+                            <p class="product-price">₹6.00 / peice</p>
+                            <button class="btn btn-primary add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                     <div class="card product-card">
+                        <img src="https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Grass-Fed Steak">
+                         <div class="card-body">
+                            <h4>Mutton</h4>
+                            <p class="product-farm">from Hoskote</p>
+                            <p class="product-price">₹700 / kg </p>
+                           <button class="btn btn-primary add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card farmer-card">
+    <img src="amruth.jpg" alt="Farmer John Doe">
+    <div class="card-body">
+        <h3><b> Amruth</b></h3>
+        <p >    Holur,kolar</p>
+        <a href="farmer-profile.html" class="btn btn-outline">View Profile</a>
+    </div>
+</div>

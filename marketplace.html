@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Marketplace - FarmLink</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <div class="page-container">
+        <header class="header">
+           <nav class="navbar container" id="navbar">
+                <a href="index.html" class="nav-logo">FarmLink</a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="farmers-list.html" class="nav-link">Farmers</a></li>
+                 <li class="nav-item"><a href="marketplace.html" class="nav-link">Marketplace</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <a href="login.html" class="nav-link">Login</a>
+                    <a href="#" class="nav-cart"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="page-header container">
+                <h1>Our Market Locations</h1>
+                <p>Discover products from various local farmers' markets and co-ops in your area.</p>
+            </section>
+
+            <section class="market-list container">
+                <div class="card-grid">
+                    <div class="card market-card">
+                        <img src="https://images.pexels.com/photos/1458671/pexels-photo-1458671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Green Valley Farmers Market">
+                        <div class="card-body">
+                            <h3>Green Valley Farmers Market</h3>
+                            <p class="market-location"><i class="fas fa-map-marker-alt"></i> Green Valley, CA</p>
+                            <p class="market-description">A vibrant weekend market featuring over 50 local vendors.</p>
+                            <a href="#" class="btn btn-primary">View Products</a>
+                        </div>
+                    </div>
+                    <div class="card market-card">
+                        <img src="https://images.pexels.com/photos/2255459/pexels-photo-2255459.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Meadowbrook Community Co-op">
+                        <div class="card-body">
+                            <h3>Meadowbrook Community Co-op</h3>
+                            <p class="market-location"><i class="fas fa-map-marker-alt"></i> Meadowbrook, OR</p>
+                            <p class="market-description">Your daily stop for fresh, locally sourced groceries and goods.</p>
+                            <a href="#" class="btn btn-primary">View Products</a>
+                        </div>
+                    </div>
+                    <div class="card market-card">
+                        <img src="https://images.pexels.com/photos/264537/pexels-photo-264537.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Boulder County Fresh Market">
+                        <div class="card-body">
+                            <h3>Boulder County Fresh Market</h3>
+                            <p class="market-location"><i class="fas fa-map-marker-alt"></i> Boulder, CO</p>
+                            <p class="market-description">Seasonal produce, artisanal cheeses, and handcrafted items.</p>
+                            <a href="#" class="btn btn-primary">View Products</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
